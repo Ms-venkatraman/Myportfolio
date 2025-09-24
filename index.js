@@ -77,7 +77,7 @@ contactForm.addEventListener('submit', (e) => {
     if (isValid) {
         // Construct WhatsApp message
         let whatsappMessage = `Hello Venkatraman,%0A%0A` +
-                              `My Name: ${nameInput.value}%0A` +
+                              `I'm Name: ${nameInput.value}%0A` +
                               `My Email: ${emailInput.value}%0A` +
                               `Message: ${messageInput.value}`;
 
